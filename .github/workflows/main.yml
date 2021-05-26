@@ -40,5 +40,5 @@ jobs:
         run: sudo npm install -g surge
         
       - name: Running surge
-        run: surge ./build afterlonglonglong.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build afterlonglonglong1212.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
