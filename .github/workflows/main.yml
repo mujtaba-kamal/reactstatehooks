@@ -40,5 +40,5 @@ jobs:
         run: sudo npm install -g surge
         
       - name: Running surge
-        run: surge ./build reacthooksandstateprac.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build reacthooksandstateprac.surge.sh --token ${{secrets.SURGE_TOKEN2}}
       
